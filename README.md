@@ -1,3 +1,3 @@
-# JavaScript-Design-Patterns-and-Techniques
+#### JavaScript-Design-Patterns-and-Techniques
 
-Coming shortly.
+Code added periodically.
