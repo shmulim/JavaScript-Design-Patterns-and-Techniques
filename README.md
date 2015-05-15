@@ -1,3 +1,3 @@
-#### JavaScript-Design-Patterns-and-Techniques
+#### JavaScript Patterns, Techniques & Quirks
 
 Code added periodically.
