@@ -1,5 +1,5 @@
-function foo(argOne, argTwo, callback){
-  console.log('output: ' + argOne + ' and ' + argTwo);
+function foo(paramOne, paramTwo, callback){
+  console.log('output: ' + paramOne + ' and ' + paramTwo);
   if (callback && typeof(callback) === 'function'){
     callback();
   }
