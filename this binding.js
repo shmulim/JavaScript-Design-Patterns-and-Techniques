@@ -4,3 +4,16 @@ function foo() {
 }
 
 foo(); // Window
+
+
+// binding to an object
+function foo(){
+  console.log(this.a);
+}
+
+var bar = {
+  a: 2,
+  foo: foo
+};
+
+bar.foo(); // 2
