@@ -6,7 +6,7 @@ function foo() {
 foo(); // Window
 
 
-// binding to an object
+// soft binding to an object
 function foo(){
   console.log(this.a);
 }
