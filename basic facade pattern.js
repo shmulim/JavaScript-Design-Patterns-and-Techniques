@@ -1,10 +1,10 @@
-function addEvent(element, eventName, func) {
+function addEvent(element, eventName, callback) {
     if (window.addEventListener) {
-        element.addEventListener(eventName, func, false);
+        element.addEventListener(eventName, callback, false);
     } else if (window.attachEvent) {
-        element.attachEvent('on' + eventName, func);
+        element.attachEvent('on' + eventName, callback);
     } else {
-        element['on' + eventName] = func;
+        element['on' + eventName] = callback;
     }
 }
 
