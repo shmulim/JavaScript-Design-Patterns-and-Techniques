@@ -4,7 +4,7 @@ var obj = {
 };
 
 function arbitraryFn(arr){
-  return arr.map(function(i){
+  return arr.map(function(){
     return this.a; //42
   }, obj); // <-- defines the 'this' keyword
 }
