@@ -8,10 +8,10 @@ function addEvent(element, eventName, callbackFn) {
     }
 }
 
-function arbitraryFunction() {
+function arbitraryFn() {
     alert('Event fired!');
 }
 
 // implementation
 el = document.getElementById('id');
-addEvent(el, 'click', arbitraryFunction);
+addEvent(el, 'click', arbitraryFn);
