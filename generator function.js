@@ -1,6 +1,6 @@
 function* gen() {
   console.log('hello');
-  yeild = null;
+  yield null;
   console.log('world');
 }
 
